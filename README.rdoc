@@ -1,3 +1,5 @@
+This is my test comment
+
 == README
 
 This README would normally document whatever steps are necessary to get the
