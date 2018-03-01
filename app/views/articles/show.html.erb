@@ -1,4 +1,4 @@
-<article-class="detail-article">
+<article class="detail-article">
   <h1 class="article-detail-title">
     <%= @article.title %>
   </h1>
@@ -10,4 +10,5 @@
     <%= @article.body %>
     
   </div>
-</article-class>
+  <%= link_to "Edit Article", edit_article_path(@article), class: "btn btn-primary btn-lg btn-space" %>
+</article>
