@@ -4,4 +4,5 @@ class Article < ActiveRecord::Base
   
   default_scope {order(created_at: :desc)} #you'd better not to use default_scope because it would cause another order-related problem in the future
   belongs_to :user
+  has_many :comments, dependent: :destroy
 end
